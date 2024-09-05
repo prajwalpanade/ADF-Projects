@@ -1,0 +1,153 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "DataFactoryPrajwal"
+		},
+		"ADLS_accountKey": {
+			"value": ""
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage2_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage3_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage4_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage5_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage6_connectionString": {
+			"value": ""
+		},
+		"AzureBlobStorage7_connectionString": {
+			"value": ""
+		},
+		"AzureDatabricks3_accessToken": {
+			"value": ""
+		},
+		"AzureSqlDatabase1_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase2_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase3_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase4_connectionString": {
+			"value": ""
+		},
+		"AzureSqlDatabase5_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase6_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase7_password": {
+			"value": ""
+		},
+		"AzureSqlDatabase8_connectionString": {
+			"value": ""
+		},
+		"SQLDB_password": {
+			"value": ""
+		},
+		"linkedService1_password": {
+			"value": ""
+		},
+		"ADLS_properties_typeProperties_url": {
+			"value": "https://prajwalsynapse.dfs.core.windows.net/"
+		},
+		"AzureDatabricks3_properties_typeProperties_existingClusterId": {
+			"value": "0802-091837-1eg24vc8"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_server": {
+			"value": "prajwalserver12.database.windows.net"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_database": {
+			"value": "PrajwalDatabase"
+		},
+		"AzureSqlDatabase1_properties_typeProperties_userName": {
+			"value": "prajwal"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_server": {
+			"value": "prajwalserver12.database.windows.net"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_database": {
+			"value": "PrajwalDatabase"
+		},
+		"AzureSqlDatabase3_properties_typeProperties_userName": {
+			"value": "prajwal"
+		},
+		"AzureSqlDatabase5_properties_typeProperties_server": {
+			"value": "prajwalserver12.database.windows.net"
+		},
+		"AzureSqlDatabase5_properties_typeProperties_database": {
+			"value": "PrajwalDatabase"
+		},
+		"AzureSqlDatabase5_properties_typeProperties_userName": {
+			"value": "prajwal"
+		},
+		"AzureSqlDatabase6_properties_typeProperties_server": {
+			"value": "prajwalserver12.database.windows.net"
+		},
+		"AzureSqlDatabase6_properties_typeProperties_database": {
+			"value": "PrajwalDatabase"
+		},
+		"AzureSqlDatabase6_properties_typeProperties_userName": {
+			"value": "prajwal"
+		},
+		"AzureSqlDatabase7_properties_typeProperties_server": {
+			"value": "prajwalserver12.database.windows.net"
+		},
+		"AzureSqlDatabase7_properties_typeProperties_database": {
+			"value": "PrajwalDatabase"
+		},
+		"AzureSqlDatabase7_properties_typeProperties_userName": {
+			"value": "prajwal"
+		},
+		"HttpServerweatherapi_properties_typeProperties_url": {
+			"value": "https://api.tomorrow.io/"
+		},
+		"MovieGitHub_properties_typeProperties_url": {
+			"value": "https://raw.githubusercontent.com/djpmsft/adf-ready-demo/master/moviesDB.csv"
+		},
+		"SQLDB_properties_typeProperties_server": {
+			"value": "prajwalserver12.database.windows.net"
+		},
+		"SQLDB_properties_typeProperties_database": {
+			"value": "PrajwalDatabase"
+		},
+		"SQLDB_properties_typeProperties_userName": {
+			"value": "prajwal"
+		},
+		"linkedService1_properties_typeProperties_server": {
+			"value": "prajwalserver12.database.windows.net"
+		},
+		"linkedService1_properties_typeProperties_database": {
+			"value": "PrajwalDatabase"
+		},
+		"linkedService1_properties_typeProperties_userName": {
+			"value": "prajwal"
+		},
+		"myapi_properties_typeProperties_url": {
+			"value": "https://api.restful-api.dev/objects"
+		},
+		"myapiconnection_properties_typeProperties_url": {
+			"value": "https://restcountries.com/v3.1/all"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
