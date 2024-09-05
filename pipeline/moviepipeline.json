@@ -1,5 +1,5 @@
 {
-	"name": "pipeline5",
+	"name": "moviepipeline",
 	"properties": {
 		"activities": [
 			{
