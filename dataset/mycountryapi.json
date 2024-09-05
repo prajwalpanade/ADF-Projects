@@ -1,0 +1,18 @@
+{
+	"name": "mycountryapi",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "myapiconnection",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

@@ -1,0 +1,50 @@
+{
+	"name": "Json3",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "AzureBlobStorage6",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobStorageLocation",
+				"container": "outputjson"
+			}
+		},
+		"schema": {
+			"type": "object",
+			"properties": {
+				"user": {
+					"type": "string"
+				},
+				"department": {
+					"type": "string"
+				},
+				"designation": {
+					"type": "string"
+				},
+				"emp_id": {
+					"type": "string"
+				},
+				"name": {
+					"type": "string"
+				},
+				"salary": {
+					"type": "string"
+				},
+				"address": {
+					"type": "string"
+				},
+				"loc": {
+					"type": "null"
+				},
+				"email": {
+					"type": "null"
+				}
+			}
+		}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

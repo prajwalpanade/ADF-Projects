@@ -1,0 +1,25 @@
+{
+	"name": "Json7",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "HttpServerweatherapi",
+			"type": "LinkedServiceReference"
+		},
+		"parameters": {
+			"apikey": {
+				"type": "string",
+				"defaultValue": "3UpUOTMLUW67VOax6KJ87cA7K4vjUJ6h"
+			}
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "HttpServerLocation",
+				"relativeUrl": "v4/weather/realtime/"
+			}
+		},
+		"schema": {}
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}

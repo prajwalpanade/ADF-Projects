@@ -1,0 +1,9 @@
+{
+	"name": "DataFactoryPrajwal",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "2972e4ca-5aa3-4c3e-a84e-de7fd676850f",
+		"tenantId": "467c02fb-742d-4b87-bd6c-99e34222222d"
+	}
+}
